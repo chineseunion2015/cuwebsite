@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <title>UCSD Chinese Union 中国同学联合会</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/png"/>
+  <link rel="apple-touch-icon" href="images/favicon.ico" type="image/png"/>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- StyleSheet -->
+  <link href="css/navbar.css" rel="stylesheet">
+
+  <link href="css/flat-ui.css" rel="stylesheet">
+  <link href="css/icon-font.css" rel="stylesheet">
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/underscore.min.js"></script>
+  <script src="js/respond.min.js"></script>
+
+</head>
+
+<body>
+
+    
+  <div id="TopTipHolder">
+    <a href="/2019">
+      <div id="TopTip"><img src="images/123.jpg" style="width:1300px;" /></div>
+    </a>
+    <div id="TopTipClose" title="关闭" style="color:white;"></div>
+  </div>
+    
+  <nav class="custom-nav" role="navigation">
+    <div style="width:1000px;">
+      <div class="navbar-header">
+
+	<img src="images/logos/logo.png" class="logo" height="60" width="60"/>
+	<a class="navbar-brand" style="font-size:40;"  href="/index">UCSD CU</a>
+      </div>
+      
+      <div class="collapse navbar-collapse">
+	<ul class="nav navbar-nav nav-text">			      
+	  <li><a href="/about">关于我们</a></li>
+	  <li><a href="/news">CU新闻</a></li>
+	  <li><a href="/services">CU服务</a></li>
+	  <li><a href="/sponsor">赞助商</a></li>
+	  <li><a href="/contact">联系CU</a></li>
+	</ul>
+      
+      </div>
+    </div>
+  </nav>
+
+  <div class="exhibition" >
+    <div style="width:1300px;">
+      <div style="margin-left:130px;color:grey;">一切皆为服务华人为本</div>
+      <div style="margin-left:130px; float:left;">
+	<div id="myCarousel" class="carousel slide carousel-size" data-interval="false">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+	    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+	    <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+	  </ol>
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+	    <div class="item" style="height:440px;">
+              <img src="images/1.jpg" alt="">
+              <div class="carousel-caption">
+		<h3>CU新生见面会圆满成功</h3>
+		<p>CU E-board成员与新生及家长分享经验 -pictured by ALLDAY</p>
+              </div>
+	    </div>
+	    <!--<div class="item active" style="height:440px;">
+              <img src="images/2.jpg" alt="">
+              <div class="carousel-caption">
+		<h3>吃完香锅逛超市</h3>
+		<p>EDGE和SS2的同学一起出来嗨！</p>
+              </div>
+	    </div>-->
+	    <div class="item active" style="height:440px;">
+              <img src="images/2.jpg" alt="">
+              <div class="carousel-caption">
+		<h3>吃完香锅逛超市</h3>
+		<p>EDGE和SS2的同学一起出来嗨！-pictured by ALLDAY</p>
+              </div>
+	    </div>
+	  </div>
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
+	  <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
+	</div>
+      </div>
+      <div style="float:left;">
+	<iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ccccff&amp;src=liyichen7887%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles" style=" border:solid 1px #777 " width="495" height="440" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
+  <div style="margin-left:130px; width:1400px;">
+    <div style="float:left; margin-top:20px;">
+      <h6 style="color:grey;">热门锦囊下载</h6>
+      <div class="book"><a href="/xuanke"><img src="images/icons/book.svg" alt=""/><br/><span style="padding-left:13px; padding-top:5px;">选课指南</span></a></div>
+      <div class="book"><img src="images/icons/building.svg" alt=""/><br/><span style="padding-left:13px; padding-top:5px;">租房指南</span></div>
+      <div class="book"><img src="images/icons/donut.svg" alt=""/><br/><span style="padding-left:13px; padding-top:5px;">美食指南</span></div>
+      <div class="book"><img src="images/icons/mountain.svg" alt=""/><br/><span style="padding-left:13px; padding-top:5px;">旅行指南</span></div>
+      <div class="book"><a href="/tritonnotes.pdf"><img src="images/icons/goal.svg" alt=""/><br/><span style="padding-left:13px; padding-top:5px;">海神笔记</span></a></div>
+      <div style="margin-top:20px; float:left; margin-bottom:20px;"><img src="images/icons/shirt.svg" alt=""/><br/><span style="padding-left:13px; padding-top:3px;">职场指南</span></div>
+    </div>
+    
+    <div style="margin-top: 260px; clear:left;">
+      <h6 style="color:grey;">本月推荐店家</h6>
+      <div class="book"><img src="images/spot.png" style="height:99.98px;" alt=""/><br/><span style="padding-left:10px; padding-top:5px;">Spot KTV</span></div>
+      <div class="book"><img src="images/qiwei.png" style="height:99.98px;" alt=""/><br/><span style="padding-left:0px; padding-top:5px;">Qiwi Kitchen</span></div>
+      <div class="book"><img src="images/noble-chef.jpg" style="height:99.98px;" alt=""/><br/><span style="padding-left:5px; padding-top:5px;">Noble Chef</span></div>
+    </div>
+
+    <div style="float:left; margin-top:-50px;">
+      <h6 style="color:grey;">本月推荐应用</h6>
+      <div class="book"><img src="images/app.jpg" style="height:99.98px;" alt=""/><br/><span style="padding-left:13px; padding-top:5px;">UCSD CU</span></div>
+      <div class="book"><img src="" alt=""/><br/><span style="padding-left:13px; padding-top:5px;"></span></div>
+      <div class="book"><img src="" alt=""/><br/><span style="padding-left:13px; padding-top:5px;"></span></div>
+    </div>
+  
+
+  </div>
+  <div class="bottom-menu bottom-menu-inverse bottom" style="margin-top:200px; padding-left:80px; width:1300px;">
+    <div class="container" style="width:1300px;">
+      <div class="row" >
+        <div class="col-md-8" >
+          <ul class="bottom-links">
+            <li style="margin-left:100px;"><a href="/about">关于我们</a></li>
+            <li style="margin-left:100px;"><a href="http://page.renren.com/601273675">人人主页</a></li>
+            <li style="margin-left:100px;"><a href="https://www.facebook.com/groups/2203090277/">Facebook主页</a></li>
+            <li style="margin-left:100px;"><a href="#fakelink">微信平台</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- JavaScript -->
+
+  <script>
+    /* 
+    * 页面顶部提示栏效果(TopTipEffect)
+    *  
+    * author: 爱微网
+    * version: 1.0.0
+    * @param {string}    id           tip提示标签id
+    * @param {string}    holderId     父标签
+    * @param {bool}      expand       展开/收起
+    * @param {string}    step         每次移动步长
+    * @param {object}    speed        移动速度
+    */
+    var TopTipEffect = function(id, holderId, expand, step, speed){
+    this.obj = document.getElementById(id);
+    this.holder = document.getElementById(holderId);
+    this.step = step;
+    this.speed = speed;
+    this.expand = expand;
+    this.maxH =598;
+    this.moveT = null;
+    this.moving = false;
+    this.tempH = expand ? 0 : this.maxH;
+}
+    TopTipEffect.prototype = {
+    play : function(){
+    if(this.moving) return;
+    if(598 > this.maxH) return;
+    var _this = this;
+    this.moveT = setInterval(function(){_this.move()}, _this.speed);
+    },
+    move : function(){
+    this.moving = true;
+    if(this.expand){
+    this.tempH += this.step;
+    if(this.tempH > this.maxH){
+    if((this.tempH - this.maxH) >= this.step){
+    this.expand = false;
+    this.moving = false;
+    clearInterval(this.moveT);
+    return;
+    }else{
+    this.tempH = this.maxH;
+    }
+    }
+    }else{
+    this.tempH -= this.step;
+    if(this.tempH < 0){
+                    if(-this.tempH >= this.step){
+      this.expand = true;
+      this.moving = false;
+      clearInterval(this.moveT);
+      return;
+      }else{
+      this.tempH = 0;
+      }
+      }
+      }
+      this.holder.style.height = this.tempH + "px";
+      this.holder.scrollTop = this.maxH - this.tempH;
+      }
+      }
+      var mytip = new TopTipEffect("TopTip", "TopTipHolder", true, 3, 0.25);
+      mytip.play();
+      //右上角关闭按钮点击
+      document.getElementById("TopTipClose").onclick = function(){
+      mytip.play();
+      }
+  </script>
+  
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+  <script src="js/jquery.ui.touch-punch.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-select.js"></script>
+  <script src="js/bootstrap-switch.js"></script>
+  <script src="js/flatui-checkbox.js"></script>
+  <script src="js/flatui-radio.js"></script>
+  <script src="js/holder.js"></script>
+  <script src="js/flatui-fileinput.js"></script>
+  <script src="js/jquery.tagsinput.js"></script>
+  <script src="js/jquery.placeholder.js"></script>
+  <script src="js/bootstrap-typeahead.js"></script>
+  <script src="js/application.js"></script>
+  
+  <!-- Core JavaScript Files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  
+  <!-- Google Maps API Key - You will need to use your own API key to use the map feature -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+  
+  <!-- Custom Theme JavaScript -->
+  <script src="js/grayscale.js"></script>
+  <!-- Script to Activate the Carousel -->
+  <script>
+    $('.carousel').carousel({
+    interval: 3500 //changes the speed
+    })
+  </script>
+</body>
+
+</html>

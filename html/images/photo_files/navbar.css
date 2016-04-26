@@ -1,0 +1,79 @@
+.custom-nav {
+    margin: 0px;
+    border-bottom: 2px solid #72B088;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #147850;
+    color: white;
+}
+
+.logo{
+    margin-top:3px;
+    margin-bottom:3px;
+    margin-right:10px;
+    margin-left:130px;
+    clear:left;
+    float:left;
+}
+
+.display{
+    display:none;
+}
+
+.nav-left{
+    float:left;
+}
+
+.nav-right{
+    margin-top:0px;
+    clear:right;
+    float:right;
+}
+
+.nav-text{
+    padding-top: 5px;
+    vertical-align:middle;   
+}
+
+.carousel-size{
+    width:660px;
+    height:440px;
+}
+
+.exhibition{
+    margin:0px;
+    background-color:#E0E0E0;
+    padding-top:5px;
+    padding-bottom:10px;
+    height:500px;
+    border-bottom: 2px solid #C2C2C2;
+    width:1300px;
+}
+
+.book{
+    margin-top:20px;
+    margin-right:100px;
+    float:left;
+    margin-bottom:20px;
+    align:center;
+}
+
+#TopTipHolder{
+    height:0;
+    overflow:hidden;
+    position:relative;
+}
+#TopTip{
+    line-height:35px;
+    text-align:center;
+   
+}
+
+#TopTipClose{
+    width:85px;
+    height:100px;
+    background:url(http://www.codefans.net/jscss/demoimg/201208/close.gif) no-repeat;	
+    position:absolute;
+    right:10px;
+    top:10px;
+}

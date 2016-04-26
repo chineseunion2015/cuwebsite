@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>中国同学联合会 - Timeline</title>
+<meta name="description"
+  content="Development templates for MODX form MakeBeCool.com design studio" />
+<meta name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Home ver.1">
+<meta property="og:title" content="Theme Club Cube" />
+<meta property="og:description"
+  content="Development templates for MODX form MakeBeCool.com design studio" />
+<meta property="og:type" content="website" />
+<meta property="og:url"
+  content="http://sites.makebecool.com/themeclubcube/" />
+<meta property="og:image"
+  content="http://sites.makebecool.com/themeclubcube/assets/design/images/logo.png" />
+<meta property="og:site_name" content="Theme Club Cube" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="dns-prefetch" href="http://code.jquery.com" />
+<link rel="dns-prefetch" href="http://fonts.googleapis.com" />
+<link rel="dns-prefetch" href="http://www.google-analytics.com" />
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="js/css/slick.css">
+<link rel="stylesheet" href="css/style.min.css">
+<link rel="stylesheet" href="css/gold-color.css">
+<link rel="stylesheet" href="css/basketball-color.css">
+<link rel="stylesheet" href="css/blueberry-color.css">
+<style>
+    .page-text .lead .question{
+            font-size: 25px;
+    font-family: "PT Sans bold",sans-serif;
+    color: #000;
+    line-height: 48px;
+    text-transform: none;
+}
+    }
+    </style>
+<!--[if IE]>
+        <script src="js/otherlibs/html5.js"></script>
+        <![endif]-->
+<!--[if lt IE 9]>
+        <script src="js/otherlibs/css3-mediaqueries.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+  <audio src=""></audio>
+  <div id="loaderContainer" class="loader-container">
+    <div class="backstage"></div>
+    <div id="loader" class="loader">
+      <div class="fr-bl"></div>
+      <div class="sc-bl"></div>
+      <div class="thr-bl"></div>
+      <div class="fth-bl"></div>
+    </div>
+  </div>
+  <header class="header-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="navbar-header col-lg-4 col-lg-offset-1">
+          <div class="tile">
+            <button class="navbar-toggle" data-toggle="collapse"
+              data-target="#navbar-collapse-1">
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <span class="home-btn">Home</span>
+          </div>
+          <a href="index.html" class="navbar-brand first"> <img
+            src="images/CU_LOGO.jpg" alt="" class="site-logo">
+          </a>
+        </div>
+        <nav class="collapse navbar-collapse col-lg-8 main-navig"
+          id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a href="index.html"
+              class="dropdown-toggle main-heading-a">CU主页</a></li>
+            <li class="dropdown"><a href="student-service.html"
+              class="dropdown-toggle main-heading-a">新生服务</a></li>
+            <li class="dropdown"><a href="events.html"
+              class="dropdown-toggle main-heading-a">活动简介</a></li>
+            <li class="dropdown"><a href="trade.html"
+              class="dropdown-toggle main-heading-a">交易平台</a></li>
+            <li class="dropdown"><a href="peripheral.html"
+              class="dropdown-toggle main-heading-a">CU周边</a></li>
+            <li class="dropdown"><a href="sponsor.html"
+              class="dropdown-toggle main-heading-a">赞助商</a></li>
+            <li class="dropdown"><a href="contacts.html"
+              class="dropdown-toggle main-heading-a">联系我们</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+  <section class="all-events events-tiles">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 events-tile-h1">
+          <h1>Timeline (Undergraduate)</h1>
+        </div>
+        <div class="col-md-4 col-sm-6 events-tile-datapicker">
+          <div class="event-dates input-append date" id="dp"
+            data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+            <div class="ev-date-left date-no-border">
+              <div class="ttl"></div>
+              <div class="dt"></div>
+              <input type="text" class="input-datepicker"
+                value="12-02-2012" readonly
+                placeholder="21 ... 28 April">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rows">
+        <div class="button-dropdown hidd">
+          <div class="button-dropdown-text">
+            <div class="dropdown-text-title">This week</div>
+            <div class="dropdown-text-dates">1 December ... 7
+              December</div>
+          </div>
+          <div class="button-dropdown-arr">
+            <i></i>
+          </div>
+          <div class="hidden-dv hide" role="tablist" id="weeks-tab">
+            <a href="Timelineundergraduate.html" class="tab-custom pressed"
+              data-toggle="tab" role="tab">
+              <div class="dropdown-text-title">Undergraduate</div>
+              <div class="dropdown-text-dates"></div>
+              <div class="tab-custom-line"></div>
+            </a>
+            <a href="Timelinetransfer.html" class="tab-custom pressed"
+               role="tab">
+              <div class="dropdown-text-title">Transfer</div>
+              <div class="dropdown-text-dates"></div>
+              <div class="tab-custom-line"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="main-content main-content__grey-border">
+        <div class="container text-contain">
+            <div class="row">
+                <main class="col-xs-12 col-sm-12 col-md-12 content-main content-main__center-list">
+                    <div class="content-page">
+                        <div class="page-text">
+
+
+                            <div class="lead">
+                                <p class="question"> 5.1 </p> 
+                                    &nbsp;&nbsp;接受 offer(SIR)
+ 
+                                <p class="question"> 5.10 </p>
+                                    &nbsp;&nbsp;Housing Contract Email (学校宿舍)
+ 
+                                <p class="question"> 5.13-6.30</p>
+                                <p> 选择学院orientation时间并填写academic</p>
+                                <a href='https://aventeur.ucsd.edu/students/newstudent/public/'> https://aventeur.ucsd.edu/students/newstudent/public/</a><br>
+                                    <ul>
+                                    <li>Revelle: orientation:6.4 截 ; academic info:7.15</li>
+                                    <li>Sixth: orientation:5.14 - 6.10;academic info:5.14 - 6.26</li>
+                                    <li>Marshall: Mid May - 6.30(注意查收邮件)</li>
+                                    <li>Warren: orientation:5.18 - 6.3;academic info:5.18 - 6.30</li>
+                                    <li>ERC: Mid May - 5.27 (注意查收邮件)</li>
+                                    <li>Muir: 6.3 截止</li>
+                                    </ul>
+ 
+                                <p class="question"> 5.31 </p>
+                                    &nbsp;&nbsp;宿舍定金 ($450)<br>
+
+                                <p class="question"> early May </p>
+                                    &nbsp;&nbsp;设置邮箱,并填写家庭联系信息（注意查收邮件）<br>
+
+                                <p class="question"> 7.1 </p>
+                                    &nbsp;&nbsp;Official Transcript(成绩单)
+                                    <p>&nbsp;&nbsp;*成绩单(包括毕业证和会考成绩)需要高中信封并盖章
+                                      有问题询问学校邮箱:receiptoftestscore@ad.ucsd.edu</p>
+                                    
+                                    <p> &nbsp;&nbsp; 上传StudentID照片
+                                    </p>
+ 
+                                <p class="question"> 7.15</p>
+                                    &nbsp;&nbsp;AP成绩,各种考试成绩<br>
+                                    成绩寄送地址:<br>
+                                      University of California, San Diego <br>
+                                      Office of Admissions and Relations with Schools <br>
+                                      *ATTN: TRANSCRIPTS<br>
+                                      9500 Gilman Dr. #0021<br>
+                                      La Jolla, CA 92093-0021<br>
+                                      United States<br><br>
+                                      TB(肺结核)测试<br>
+                                      HB 网上填写 <br>
+                                      疫苗<br>
+                                      <a href='https://wellness.ucsd.edu/studenthealth/Documents/tbassessment.pdf'>https://wellness.ucsd.edu/studenthealth/Documents/tbassessment.pdf</a>
+
+
+                                <p class="question"> 7.30</p>       
+                                    &nbsp;&nbsp;Roomate Request<br>
+
+                                <p class="question"> 7.31之前</p>                                       
+                                    &nbsp;&nbsp;完成 We are tritons<br>
+
+                                 <p class="question"> 8.1 (待定）</p>                                
+                                    <p>
+                                      查看选课时间和课程表(MyTritonlink — Webreg)
+                                    </p>
+ 
+                                 <p class="question"> 8.15</p> 
+                                    <p>
+                                       网上注册international student orientation<br>
+                                       <a href='http://ispo.ucsd.edu/new-students/orientation.html#Register-for-Orientation'>http://ispo.ucsd.edu/new-students/orientation.html#Register-for-Orientation</a>
+                                    </p>                      
+
+                                    <p class="question"> 8.24-8.28</p> 
+                                    <p>
+                                       选课(MyTritonlink — Webreg)<br>
+                                    </p>
+
+                                    <p class="question"> 9.16</p> 
+                                    <p>
+                                       iTriton International Online Orientation<br>
+                                       fall quarter 学费<br>
+                                    </p>
+
+                                    <p class="question"> 9.19</p> 
+                                    <p>
+                                       开学典礼<br>
+                                    </p>          
+
+                                    <p class="question"> 9.20</p> 
+                                    <p>
+                                       international student orientation<br>
+                                    </p>        
+
+                                    <p class="question"> 9.22</p> 
+                                    <p>
+                                       开学日期<br>
+                                    </p>
+
+                                    <p class="question"> 9.12-9.17</p>
+                                    <p> 学院orientation时间以及宿舍开放日期 </p>
+                                    <ul>
+                                    <li>Sixth: 9.12 - 9.13(两天） move-in: 9.11</li>
+                                    <li>Warren: 9.15 或 9.16  &nbsp; move-in: 9.14</li>
+                                    <li>Marshall: 9.15 - 9.16 (两天） move-in: 9.14</li>
+                                    <li>Muir: 9.15 或 9.16 &nbsp; move-in: 9.14</li>
+                                    <li>ERC: 9.15 或 9.16 &nbsp; move-in: 9.14</li>
+                                    <li>Revelle: 9.15 - 9.16 (两天） move-in: 9.17</li>
+                                    </ul> 
+
+
+
+
+      </div>
+                            
+                            
+                        </div>
+                    </div>
+                </main>
+            </div>
+            
+        </div>
+    </div>
+  <!-- <div class="container">
+    <div class="rows paging single-paging">
+      <div class="left-pag sm off">
+        <div class="pad-arr">
+          <i></i>
+        </div>
+        <div class="pad-text">
+          <div class="pad-title">Prev</div>
+        </div>
+      </div>
+      <ul class="middle-paging">
+        <li class="off"><span>1</span></li>
+        <li><a href="/themeclubcube/eventslist/events?page=2">2</a>
+        </li>
+      </ul>
+      <a class="right-pag sm"
+        href="/themeclubcube/eventslist/events?page=2">
+        <div class="pad-arr">
+          <i></i>
+        </div>
+        <div class="pad-text">
+          <div class="pad-title">Next</div>
+        </div>
+      </a>
+    </div> -->
+  </main>
+  <footer class="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 footer-block">
+                    <div class="welcome">
+                        <div class="welcome-inner">
+                            <div>
+                                <p  class="welcome-title"> 中国学生会欢迎您！ </p>
+                            </div>
+                            
+                            <span class="welcome-title">Do not hesitate to contact us!</span>
+
+                        </div>
+                    </div>
+                    <address>
+                        <ul class="address-list">
+                            <li>
+                                <div class="letter"></div>
+                                <a href="mailto:ucsandiegochineseunion@gmail.com">"ucsandiegochineseunion@gmail.com"</a>
+                            </li>
+                            <li>
+                                <div class="phone-foot"></div>
+
+                                <ul>
+                                    <li>wechat: muylisa</li>
+                                </ul>
+                            </li>
+                            <li class="last">
+                                <div class="baloone-foot"></div>
+                                <ul>
+                                    <li>9500 Gilman Dr.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+               <div class="col-lg-4 col-md-6 col-sm-6 footer-block">
+          <div class="subscribe-here soc-marg">
+            <div class="footer-header">CU微信公众号</div>
+            <p>请扫描下方二维码关注</p>
+            <img src="images/CU_微信.jpg" alt="CU微信公众号" width=200px >
+            </form>
+          </div>
+        </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 footer-block last">
+                    <div class="soc-marg soc-webs">
+                        <div class="footer-header">关注我们</div>
+                         <p>点击关注各大社交网站主页</p>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://www.facebook.com/groups/2203090277/?fref=ts" target="_blank">
+                                    <i class="fa fa-facebook"></i>                                </a>                            </li>
+                           
+                            <li>
+                                <a href="http://page.renren.com/601273675/channel-notelist?mid=" target="_blank">
+                                    <i class="fa fa-renren"></i>                                </a>                            </li>
+                             <li>
+                           <a href="http://weibo.com/ucsandiego">
+                           <i class="fa fa-weibo"></i>                         </a>                            </li>
+                           
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCTKIHrBWM_VwUFunuCIr1eQ">
+                                    <i class="fa fa-youtube"></i>                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<audio controls="controls" src="cuagain.mp3" autoplay="autoplay" loop="loop"></audio>-->
+        <div class="copyrights-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="copyrigts">Copyright 2016-中国学生联合会
+                            <a href="#"></a> / All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  <script>
+      var global = {
+        siteUrl : 'http://sites.makebecool.com/themeclubcube/',
+        baseUrl : '/themeclubcube/',
+        assetsUrl : '/themeclubcube/assets/',
+        cultureKey : 'en'
+      }
+    </script>
+  <script src="js/jquery/jquery-1.11.0.min.js"></script>
+  <script src="js/otherlibs/bootstrap.js"></script>
+  <script src="js/jquery/plugins/jquery.imgpreload.js"></script>
+  <script src="js/jquery/plugins/jquery.form.js"></script>
+  <script src="js/jquery/plugins/validation/jquery.validate.js"></script>
+  <script src="js/jquery/plugins/slick/slick.min.js"></script>
+  <script src="js/jquery/plugins/tileSlide.js"></script>
+  <script src="js/jquery/plugins/topEventsAnimate.js"></script>
+  <script src="js/jquery/plugins/tinyAnimations.js"></script>
+  <script src="js/jquery/plugins/imagelightbox/imagelightbox.js"></script>
+  <script src="js/jquery/plugins/jquery.sharrre.js"></script>
+  <script src="js/jquery/plugins/topEventsAnimate.js"></script>
+  <script src="js/app/lib/site.js"></script>
+  <script src="js/app/lib/siteMode.js"></script>
+  <script src="js/app/mode/themeMode.js"></script>
+  <script src="js/app/modules/images.js"></script>
+  <script src="js/app/modules/loaderMain.js"></script>
+  <script src="js/app/modules/fullHeightSlider.js"></script>
+  <script src="js/app/modules/eventAnimate.js"></script>
+  <script src="js/app/modules/blogAnimate.js"></script>
+  <script src="js/app/modules/partners.js"></script>
+  <script src="js/app/modules/scrollAtOnce.js"></script>
+  <script src="js/app/modules/menuToTop.js"></script>
+  <script src="js/app/modules/gallerySlider.js"></script>
+  <script src="js/app/modules/topEventsSlider.js"></script>
+  <script src="js/app/modules/ticketsEventsSlider.js"></script>
+  <script src="js/app/modules/formContacts.js"></script>
+  <script src="js/app/modules/formSubscribe.js"></script>
+  <script src="js/app/modules/galleryPage.js"></script>
+  <script src="js/app/modules/sharrre.js"></script>
+  <script src="js/app/modules/eventsTickets.js"></script>
+  <script src="js/app/modules/dropDownClick.js"></script>
+  <script src="js/init.js"></script>
+</body>
+
+</html>

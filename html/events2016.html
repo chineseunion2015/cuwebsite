@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>中国同学联合会 - 活动简介</title>
+<meta name="description"
+  content="Development templates for MODX form MakeBeCool.com design studio" />
+<meta name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Home ver.1">
+<meta property="og:title" content="Theme Club Cube" />
+<meta property="og:description"
+  content="Development templates for MODX form MakeBeCool.com design studio" />
+<meta property="og:type" content="website" />
+<meta property="og:url"
+  content="http://sites.makebecool.com/themeclubcube/" />
+<meta property="og:image"
+  content="http://sites.makebecool.com/themeclubcube/assets/design/images/logo.png" />
+<meta property="og:site_name" content="Theme Club Cube" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="dns-prefetch" href="http://code.jquery.com" />
+<link rel="dns-prefetch" href="http://fonts.googleapis.com" />
+<link rel="dns-prefetch" href="http://www.google-analytics.com" />
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="js/css/slick.css">
+<link rel="stylesheet" href="css/style.min.css">
+<link rel="stylesheet" href="css/gold-color.css">
+<link rel="stylesheet" href="css/basketball-color.css">
+<link rel="stylesheet" href="css/blueberry-color.css">
+<!--[if IE]>
+        <script src="js/otherlibs/html5.js"></script>
+        <![endif]-->
+<!--[if lt IE 9]>
+        <script src="js/otherlibs/css3-mediaqueries.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+  <audio src=""></audio>
+  <div id="loaderContainer" class="loader-container">
+    <div class="backstage"></div>
+    <div id="loader" class="loader">
+      <div class="fr-bl"></div>
+      <div class="sc-bl"></div>
+      <div class="thr-bl"></div>
+      <div class="fth-bl"></div>
+    </div>
+  </div>
+  <header class="header-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="navbar-header col-lg-4 col-lg-offset-1">
+          <div class="tile">
+            <button class="navbar-toggle" data-toggle="collapse"
+              data-target="#navbar-collapse-1">
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <span class="home-btn">Home</span>
+          </div>
+          <a href="index.html" class="navbar-brand first"> <img
+            src="images/CU_LOGO.jpg" alt="" class="site-logo">
+          </a>
+        </div>
+        <nav class="collapse navbar-collapse col-lg-8 main-navig"
+          id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a href="index.html"
+              class="dropdown-toggle main-heading-a">CU主页</a></li>
+            <li class="dropdown"><a href="student-service.html"
+              class="dropdown-toggle main-heading-a">新生服务</a></li>
+            <li class="dropdown"><a href="events.html"
+              class="dropdown-toggle main-heading-a">活动简介</a></li>
+            <li class="dropdown"><a href="trade.html"
+              class="dropdown-toggle main-heading-a">交易平台</a></li>
+            <li class="dropdown"><a href="peripheral.html"
+              class="dropdown-toggle main-heading-a">CU周边</a></li>
+            <li class="dropdown"><a href="sponsor.html"
+              class="dropdown-toggle main-heading-a">赞助商</a></li>
+            <li class="dropdown"><a href="contacts.html"
+              class="dropdown-toggle main-heading-a">联系我们</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+  <section class="all-events events-tiles">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 events-tile-h1">
+          <h1>活动简介</h1>
+        </div>
+        <div class="col-md-4 col-sm-6 events-tile-datapicker">
+          <div class="event-dates input-append date" id="dp"
+            data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+            <div class="ev-date-left date-no-border">
+              <div class="ttl"></div>
+              <div class="dt"></div>
+              <input type="text" class="input-datepicker"
+                value="12-02-2012" readonly
+                placeholder="21 ... 28 April">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rows">
+        <div class="button-dropdown hidd">
+          <div class="button-dropdown-text">
+            <div class="dropdown-text-title">This week</div>
+            <div class="dropdown-text-dates">1 December ... 7
+              December</div>
+          </div>
+          <div class="button-dropdown-arr">
+            <i></i>
+          </div>
+          <div class="hidden-dv hide" role="tablist" id="weeks-tab">
+            <a href="events.html" class="tab-custom pressed"
+              data-toggle="tab" role="tab">
+              <div class="dropdown-text-title">2015学年</div>
+              <div class="dropdown-text-dates"></div>
+              <div class="tab-custom-line"></div>
+            </a>
+            <a href="events2016.html" class="tab-custom pressed"
+               role="tab">
+              <div class="dropdown-text-title">2016学年</div>
+              <div class="dropdown-text-dates"></div>
+              <div class="tab-custom-line"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container gr-bg tab-content">
+    <div class="tab-pane show row">
+      
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/UCSD-GeiselLib.jpg" width='360' height='320'>
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Apr</div>
+              <div class="day">9</div>
+              <div class="week-day">Sat</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a href="http://tritonday.ucsd.edu/"
+                  title="Streets Love Invasion" class="top-event-title">Triton Day</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Apr.9</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">Triton Day was great, thanks to you!<br> #MYTRITONLIFE </span>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+               
+              </div>
+            </div>
+          </div>
+          <a href="http://tritonday.ucsd.edu/" class="top-event__link"></a>
+        </article>
+      </div>
+      
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Mash Up Your Heads: Christmas Night"
+            title="Mash Up Your Heads: Christmas Night" data-src=""
+            data-src2x="" src="images/eboard.png" width = "360" height = "320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Apr</div>
+              <div class="day">19</div>
+              <div class="week-day">Tue</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a
+                  href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=2651791303&idx=1&sn=608ef2ee4a0c422857fbe6864068a01f&scene=1&srcid=0426BfwSGTuT7WwXFMZcVNby&key=b28b03434249256b1a68a871530454a0a50243d5ebe9babc41bfdff35e091878ceff0a752302391671ecc0afb7d96922&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=8m1qF5BJeDjfil8XAJcvobXhO1Ks8B5g%2BYAV2WEecEaYOm0FXGoUnXrvmNEbZgR1"
+                  title="Mash Up Your Heads: Christmas Night"
+                  class="top-event-title">E-board选举</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Apr.19</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">又是一年生机勃勃春意盎然的好时候，Chinese Union 2016-17 Board Member竞选落下帷幕。
+经过刚刚退休的CU老干部们公平公正地讨论和投票后，他们终于甄选出了一批才华横溢出类拔萃优秀的人才。 </span>
+                  </div>
+                  
+
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=2651791303&idx=1&sn=608ef2ee4a0c422857fbe6864068a01f&scene=1&srcid=0426BfwSGTuT7WwXFMZcVNby&key=b28b03434249256b1a68a871530454a0a50243d5ebe9babc41bfdff35e091878ceff0a752302391671ecc0afb7d96922&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=8m1qF5BJeDjfil8XAJcvobXhO1Ks8B5g%2BYAV2WEecEaYOm0FXGoUnXrvmNEbZgR1" class="top-event__link"></a>
+        </article>
+      </div>
+      <!--
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Discover Paparazzi Madness"
+            title="Discover Paparazzi Madness" data-src="" data-src2x=""
+            src="images/food fare.png" width = "360" height = "320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Oct</div>
+              <div class="day">28</div>
+              <div class="week-day">Wed</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=400133227&idx=1&sn=4dc5b22cfefcc5119f9037a313f6822a&scene=1&srcid=0422FZp7NMQQ1l3FkSMn0ghO&key=b28b03434249256b2ea36fe75ed9439e834a5a2654f28f3d623a17cf7b26c0e746a816c087168d591be53315046c8a31&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=Hc0RBEJG96Ix8zxTjKLDRYBCbAsrqVz80QcHHEKcv6DfN8m%2BxbkvwG%2BJZEpOwcJk"
+                  title="Discover Paparazzi Madness"
+                  class="top-event-title">CU 2015 秋季夜市</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Oct.28</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">回顾去年的秋季夜市，整条Library Walk人头攒动，有一些同学反映没有排到自己想吃的小吃，
+                    这次我们准备了更多种类的美食！同样在Library Walk上等待你们的到来！</span>
+                  </div>
+                  
+
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=400133227&idx=1&sn=4dc5b22cfefcc5119f9037a313f6822a&scene=1&srcid=0422FZp7NMQQ1l3FkSMn0ghO&key=b28b03434249256b2ea36fe75ed9439e834a5a2654f28f3d623a17cf7b26c0e746a816c087168d591be53315046c8a31&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=Hc0RBEJG96Ix8zxTjKLDRYBCbAsrqVz80QcHHEKcv6DfN8m%2BxbkvwG%2BJZEpOwcJk" class="top-event__link"></a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Daily Bass Ocean" title="Daily Bass Ocean" data-src=""
+            data-src2x="" src="images/ICUC.png" width = "360" height = "320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Oct</div>
+              <div class="day">24</div>
+              <div class="week-day">Sat</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=400246436&idx=1&sn=a36b1b5c5ad8931707326924e0e02f76&scene=1&srcid=0422dIHasGVeSLs6IQ9QXGTu&uin=MTkyNzI3MDY2MQ%3D%3D&key=b28b03434249256b167d21fe82077f577888bd655ad016fbecaeb5d418e317c83d14d20fe38704932f31ffa7578fb4c2&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&lang=en&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10"
+                  title="Daily Bass Ocean" class="top-event-title">ICUC千人狂欢派对</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Oct.24</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">迷幻的气氛在等待入场的人群当中滋生蔓延。专业摄影师免费拍照，给我今年的万圣节留下美好的回忆。
+让我仿佛感觉，在这豁达的天使之城里，我就是世界的中心。 </span>
+                  </div>
+                  
+
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=400246436&idx=1&sn=a36b1b5c5ad8931707326924e0e02f76&scene=1&srcid=0422dIHasGVeSLs6IQ9QXGTu&uin=MTkyNzI3MDY2MQ%3D%3D&key=b28b03434249256b167d21fe82077f577888bd655ad016fbecaeb5d418e317c83d14d20fe38704932f31ffa7578fb4c2&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&lang=en&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10" class="top-event__link"></a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Hip-Hop X OH!Trap" title="Hip-Hop X OH!Trap"
+            data-src="" data-src2x="" src="images/feichengwurao.png" width = "360" height = "320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Nov</div>
+              <div class="day">12</div>
+              <div class="week-day">Thu</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=400617046&idx=1&sn=a396a7d42f4065b65f269c5d4ca17db1&scene=1&srcid=0422BaC6BDuMVJGgBHlN4w7V&key=b28b03434249256bb2770859a0ee10055d151b57f13f80309b11c0735e5b03044252bcca5c3f04c06bc7dc8f20f6d0e3&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10"
+                  title="Hip-Hop X OH!Trap" class="top-event-title">六校联办非诚勿扰</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Nov.12</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">台上俊男美女，台下送花也开启虐狗模式，小编的心真的嚎痛...
+但是看着男女嘉宾牵手成功时露出的笑容，小编还是忠心地祝福：
+祝天下所有的情侣都是失散多年的兄妹！ </span>
+                  </div>
+                  
+
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=400617046&idx=1&sn=a396a7d42f4065b65f269c5d4ca17db1&scene=1&srcid=0422BaC6BDuMVJGgBHlN4w7V&key=b28b03434249256bb2770859a0ee10055d151b57f13f80309b11c0735e5b03044252bcca5c3f04c06bc7dc8f20f6d0e3&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10" class="top-event__link"></a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Streets Love Invasion" title="Streets Love Invasion"
+            data-src="" data-src2x="" src="images/potatochip.png" width = "360" height = "320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Nov</div>
+              <div class="day">7</div>
+              <div class="week-day">Sat</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=400393393&idx=1&sn=f2b239c9c9529de24b8c62cf56d0c93a&scene=1&srcid=0422NuJ0vFKrdq7epAIA4aJz&key=b28b03434249256bb80d3407357448ad5c1c7817bb22535f5c1c8678d7144a41231e76436a6748adbb50cc763ddbda98&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10"
+                  title="Streets Love Invasion" class="top-event-title">登顶土豆岩</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Nov.7</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">CU 2015-16第二次Officer内联在薯片岩宁静秀美的晚霞中落下了帷幕。
+让我们恭喜本次登山活动中成功登顶的两支小分队！！ </span>
+                  </div>
+                  
+
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=400393393&idx=1&sn=f2b239c9c9529de24b8c62cf56d0c93a&scene=1&srcid=0422NuJ0vFKrdq7epAIA4aJz&key=b28b03434249256bb80d3407357448ad5c1c7817bb22535f5c1c8678d7144a41231e76436a6748adbb50cc763ddbda98&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10" class="top-event__link"></a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/wintergbm.png" width = "360" height = "320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Jan</div>
+              <div class="day">4</div>
+              <div class="week-day">Fri</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=401886935&idx=1&sn=14e7fdc409cc827bcde0e0f2603b5e92&scene=1&srcid=04220Xom8S1EHYeZies7p5Gx&key=b28b03434249256b9f1ce0e5cca68f1267bcec1445d74c8072f299d7560335151483b7cf6bfb6b4b7992d280337807e7&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10"
+                  title="Californication Nights" class="top-event-title">CU冬季GBM</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Jan.4</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">学习新的技能，结识更多朋友，加入CU是你的不二选择！</span>
+                  </div>
+                  
+
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=401886935&idx=1&sn=14e7fdc409cc827bcde0e0f2603b5e92&scene=1&srcid=04220Xom8S1EHYeZies7p5Gx&key=b28b03434249256b9f1ce0e5cca68f1267bcec1445d74c8072f299d7560335151483b7cf6bfb6b4b7992d280337807e7&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10" class="top-event__link"></a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Mash Up Your Heads: Christmas Night"
+            title="Mash Up Your Heads: Christmas Night" data-src=""
+            data-src2x="" src="images/sanguosha.png" width = "360" height = "320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Mar</div>
+              <div class="day">5</div>
+              <div class="week-day">Sat</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a
+                  href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=402498876&idx=1&sn=8a89f8747c0bb984f96a4e1a2bf2da90&scene=1&srcid=0422KJyUO8txvKnDb0xradnJ&key=b28b03434249256b4c196418dc7d79336bcc798a6f74b761dbd36037719d639ed877a0cd58878d758fc3d7a88d0718b1&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10"
+                  title="Mash Up Your Heads: Christmas Night"
+                  class="top-event-title">三国杀王者之战</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Mar.5</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">【第一次由全体CU officer精心策划，
+旨在为你呈现一片纵横驰骋、热血沸腾、
+剑拔弩张、拼搏厮杀的三国杀战场！！】
+ </span>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=402498876&idx=1&sn=8a89f8747c0bb984f96a4e1a2bf2da90&scene=1&srcid=0422KJyUO8txvKnDb0xradnJ&key=b28b03434249256b4c196418dc7d79336bcc798a6f74b761dbd36037719d639ed877a0cd58878d758fc3d7a88d0718b1&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10" class="top-event__link"></a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Discover Paparazzi Madness"
+            title="Discover Paparazzi Madness" data-src="" data-src2x=""
+            src="images/gre.png" width = "360" height = "320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Mar</div>
+              <div class="day">23</div>
+              <div class="week-day">Wed</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a
+                  href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=403179099&idx=1&sn=6eb09af16f1b1a227fec696199424160&scene=1&srcid=0422tMA7JmnUUig4DW31VeSG&key=b28b03434249256b5d4aef406eb5a0b22450f69f88324990fd80e7c068f0674c0e4b76f23f600377e9af5ac902fa4b18&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10"
+                  title="Discover Paparazzi Madness"
+                  class="top-event-title">丽丽老师冲分GRE</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Mar.23</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">本次我们特邀丽丽老师与其团队来到圣地亚哥为华人学生们提供GRE课程，希望解决大家在GRE备考上的困惑。</span>
+                  </div>
+                  
+
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=403179099&idx=1&sn=6eb09af16f1b1a227fec696199424160&scene=1&srcid=0422tMA7JmnUUig4DW31VeSG&key=b28b03434249256b5d4aef406eb5a0b22450f69f88324990fd80e7c068f0674c0e4b76f23f600377e9af5ac902fa4b18&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10" class="top-event__link"></a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="http://fmn.rrfmn.com/fmn059/20140421/0600/p/m2w690hq92lt_large_yBjx_40b7000081c9118f.jpg" width = "360" height = "320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Apr</div>
+              <div class="day">3</div>
+              <div class="week-day">Sun</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=404080716&idx=1&sn=44cfb110251dfe63fc8649490e79efe4&scene=1&srcid=0422QMZ9H8ciYSbAu1ZERGFJ&key=b28b03434249256b396976e731b4ea6b172f01fd13acac4708f7260f3a83eba0bd8874ac41a59e830f9e8af68d0197ad&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10"
+                  title="Californication Nights" class="top-event-title">看花海 摘草莓</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Apr.3</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">随着天气变得愈加温暖，绿意席卷校园，让我们追随春的脚步，漫步花海，去找寻记忆中春天的那一抹五彩斑斓吧！ </span>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=404080716&idx=1&sn=44cfb110251dfe63fc8649490e79efe4&scene=1&srcid=0422QMZ9H8ciYSbAu1ZERGFJ&key=b28b03434249256b396976e731b4ea6b172f01fd13acac4708f7260f3a83eba0bd8874ac41a59e830f9e8af68d0197ad&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10" class="top-event__link"></a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Mash Up Your Heads: Christmas Night"
+            title="Mash Up Your Heads: Christmas Night" data-src=""
+            data-src2x="" src="images/Madeira-Fishing-Resized.jpg" width = "360" height = "320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Apr</div>
+              <div class="day">09</div>
+              <div class="week-day">Sat</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a
+                  href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=404307641&idx=1&sn=e7ac2eaf1971b144296dcccf3be1d750&scene=1&srcid=04224y18WvEiArzOszmqHYdz&key=b28b03434249256b714b29a597f52d4a97e20fc9d9856a5ec225cb77076d015d820c9b0156f369bd3bc962e3160bd2bf&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10"
+                  title="Mash Up Your Heads: Christmas Night"
+                  class="top-event-title">CU带你去海钓</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Apr.9</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">亲吻着温柔的海风，我们与遨游的海鸥群共舞；
+    注视着翻滚的海豹，我们一同享受钓鱼的激情。</span>
+                  </div>
+                  
+
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=404307641&idx=1&sn=e7ac2eaf1971b144296dcccf3be1d750&scene=1&srcid=04224y18WvEiArzOszmqHYdz&key=b28b03434249256b714b29a597f52d4a97e20fc9d9856a5ec225cb77076d015d820c9b0156f369bd3bc962e3160bd2bf&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10" class="top-event__link"></a>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Discover Paparazzi Madness"
+            title="Discover Paparazzi Madness" data-src="" data-src2x=""
+            src="images/壁纸20160404190232.jpg" width = "360" height = "320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Apr</div>
+              <div class="day">17</div>
+              <div class="week-day">Sun</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=404145515&idx=1&sn=f5e5116dc67ab7b44317541c45385365&scene=1&srcid=0422PmdpWcwCdhfEUyyAilOV&key=b28b03434249256bc39d26e3d931e15e712f74abab34c0aecf4538664d823bafcbf26f988486469a38a45adbe692fc03&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10"
+                  title="Discover Paparazzi Madness"
+                  class="top-event-title">英雄联盟荣耀之战</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">Apr.17</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">简介</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">S6赛季，你们还在等什么？
+为了至上荣耀，来战吧！</span>
+                  </div>
+                  
+
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NzAwMg==&mid=404145515&idx=1&sn=f5e5116dc67ab7b44317541c45385365&scene=1&srcid=0422PmdpWcwCdhfEUyyAilOV&key=b28b03434249256bc39d26e3d931e15e712f74abab34c0aecf4538664d823bafcbf26f988486469a38a45adbe692fc03&ascene=0&uin=MTkyNzI3MDY2MQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.11.2+build(15C50)&version=11020201&pass_ticket=r4ynFeMU7g3SpK2u1Sog3CACkHwSTal%2FuV26X9RWoke9DEbudkiZ%2BMZkvX7g9t10" class="top-event__link"></a>
+        </article>
+      </div>
+      -->
+    </div>
+  </div>
+  <!-- <div class="container">
+    <div class="rows paging single-paging">
+      <div class="left-pag sm off">
+        <div class="pad-arr">
+          <i></i>
+        </div>
+        <div class="pad-text">
+          <div class="pad-title">Prev</div>
+        </div>
+      </div>
+      <ul class="middle-paging">
+        <li class="off"><span>1</span></li>
+        <li><a href="/themeclubcube/eventslist/events?page=2">2</a>
+        </li>
+      </ul>
+      <a class="right-pag sm"
+        href="/themeclubcube/eventslist/events?page=2">
+        <div class="pad-arr">
+          <i></i>
+        </div>
+        <div class="pad-text">
+          <div class="pad-title">Next</div>
+        </div>
+      </a>
+    </div> -->
+  </main>
+  <footer class="contact-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 footer-block">
+          <div class="welcome">
+            <div class="welcome-inner">
+              <div class="corner-welcome"></div>
+              <span class="welcome-title">欢迎通过下列方式联系我们~</span>
+            </div>
+          </div>
+          <address>
+            <ul class="address-list">
+              <li>
+                <div class="letter"></div> <a
+                href="mailto:hello@cubeclub.com">hello@cubeclub.com</a>
+              </li>
+              <li>
+                <div class="phone-foot"></div>
+                <ul>
+                  <li>+38 (050) 588-46-37</li>
+                  <li>+38 (097) 798-45-12</li>
+                </ul>
+              </li>
+              <li class="last">
+                <div class="baloone-foot"></div>
+                <ul>
+                  <li>87500 Mariupol, Ukraine, ul. Kazantsev 7b,
+                    2nd floor, office. 29</li>
+                </ul>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 footer-block">
+          <div class="subscribe-here soc-marg">
+            <div class="footer-header">CU微信公众号</div>
+            <p>请扫描下方二维码关注</p>
+            <img alt="CU微信公众号" src="images/CU_微信.jpg" width=200px>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 footer-block last">
+          <div class="soc-marg soc-webs">
+            <div class="footer-header">关注我们</div>
+            <p>点击关注各大社交网站主页</p>
+            <ul class="social-icons">
+              <li><a
+                href="https://www.facebook.com/groups/2203090277/"
+                target="_blank"> <i class="fa fa-facebook"></i>
+              </a></li>
+              <li><a href="http://page.renren.com/601273675"
+                target="_blank"> <i class="fa fa-renren"></i>
+              </a></li>
+              <li><a href="http://weibo.com/ucsandiego"
+                target="_blank"> <i class="fa fa-weibo"></i>
+              </a></li>
+              <li><a
+                href="https://www.youtube.com/channel/UCTKIHrBWM_VwUFunuCIr1eQ"
+                target="_blank"> <i class="fa fa-youtube"></i>
+              </a></li>
+              <li><a href="https://www.instagram.com/ucsdcu"
+                target="_blank"> <i class="fa fa-instagram"></i>
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyrights-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="copyrigts">
+              Copyright 2016 <a href="index.html">中国学生联合会</a> / All
+              rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+      var global = {
+        siteUrl : 'http://sites.makebecool.com/themeclubcube/',
+        baseUrl : '/themeclubcube/',
+        assetsUrl : '/themeclubcube/assets/',
+        cultureKey : 'en'
+      }
+    </script>
+  <script src="js/jquery/jquery-1.11.0.min.js"></script>
+  <script src="js/otherlibs/bootstrap.js"></script>
+  <script src="js/jquery/plugins/jquery.imgpreload.js"></script>
+  <script src="js/jquery/plugins/jquery.form.js"></script>
+  <script src="js/jquery/plugins/validation/jquery.validate.js"></script>
+  <script src="js/jquery/plugins/slick/slick.min.js"></script>
+  <script src="js/jquery/plugins/tileSlide.js"></script>
+  <script src="js/jquery/plugins/topEventsAnimate.js"></script>
+  <script src="js/jquery/plugins/tinyAnimations.js"></script>
+  <script src="js/jquery/plugins/imagelightbox/imagelightbox.js"></script>
+  <script src="js/jquery/plugins/jquery.sharrre.js"></script>
+  <script src="js/jquery/plugins/topEventsAnimate.js"></script>
+  <script src="js/app/lib/site.js"></script>
+  <script src="js/app/lib/siteMode.js"></script>
+  <script src="js/app/mode/themeMode.js"></script>
+  <script src="js/app/modules/images.js"></script>
+  <script src="js/app/modules/loaderMain.js"></script>
+  <script src="js/app/modules/fullHeightSlider.js"></script>
+  <script src="js/app/modules/eventAnimate.js"></script>
+  <script src="js/app/modules/blogAnimate.js"></script>
+  <script src="js/app/modules/partners.js"></script>
+  <script src="js/app/modules/scrollAtOnce.js"></script>
+  <script src="js/app/modules/menuToTop.js"></script>
+  <script src="js/app/modules/gallerySlider.js"></script>
+  <script src="js/app/modules/topEventsSlider.js"></script>
+  <script src="js/app/modules/ticketsEventsSlider.js"></script>
+  <script src="js/app/modules/formContacts.js"></script>
+  <script src="js/app/modules/formSubscribe.js"></script>
+  <script src="js/app/modules/galleryPage.js"></script>
+  <script src="js/app/modules/sharrre.js"></script>
+  <script src="js/app/modules/eventsTickets.js"></script>
+  <script src="js/app/modules/dropDownClick.js"></script>
+  <script src="js/init.js"></script>
+</body>
+
+</html>
