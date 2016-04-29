@@ -1,0 +1,904 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>中国同学联合会 - 新生相册</title>
+<meta name="description"
+  content="Development templates for MODX form MakeBeCool.com design studio" />
+<meta name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Home ver.1">
+<meta property="og:title" content="Theme Club Cube" />
+<meta property="og:description"
+  content="Development templates for MODX form MakeBeCool.com design studio" />
+<meta property="og:type" content="website" />
+<meta property="og:url"
+  content="http://sites.makebecool.com/themeclubcube/" />
+<meta property="og:image"
+  content="http://sites.makebecool.com/themeclubcube/assets/design/images/logo.png" />
+<meta property="og:site_name" content="Theme Club Cube" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="dns-prefetch" href="http://code.jquery.com" />
+<link rel="dns-prefetch" href="http://fonts.googleapis.com" />
+<link rel="dns-prefetch" href="http://www.google-analytics.com" />
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="js/css/slick.css">
+<link rel="stylesheet" href="css/style.min.css">
+<link rel="stylesheet" href="css/gold-color.css">
+<link rel="stylesheet" href="css/basketball-color.css">
+<link rel="stylesheet" href="css/blueberry-color.css">
+<!--[if IE]>
+        <script src="js/otherlibs/html5.js"></script>
+        <![endif]-->
+<!--[if lt IE 9]>
+        <script src="js/otherlibs/css3-mediaqueries.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+  <audio src=""></audio>
+  <div id="loaderContainer" class="loader-container">
+    <div class="backstage"></div>
+    <div id="loader" class="loader">
+      <div class="fr-bl"></div>
+      <div class="sc-bl"></div>
+      <div class="thr-bl"></div>
+      <div class="fth-bl"></div>
+    </div>
+  </div>
+ <header class="header-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="navbar-header col-lg-4 col-lg-offset-1">
+          <div class="tile">
+            <button class="navbar-toggle" data-toggle="collapse"
+              data-target="#navbar-collapse-1">
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <span class="home-btn">Home</span>
+          </div>
+          <a href="/" class="navbar-brand first"> <img
+            src="images/CU_LOGO.jpg" alt="" class="site-logo">
+          </a>
+        </div>
+        <nav class="collapse navbar-collapse col-lg-8 main-navig"
+          id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><a href="/"
+              class="dropdown-toggle main-heading-a">CU主页</a></li>
+            <li class="dropdown"><a href="/student-service"
+              class="dropdown-toggle main-heading-a">新生服务</a></li>
+            <li class="dropdown"><a href="/events"
+              class="dropdown-toggle main-heading-a">活动简介</a></li>
+
+            <li class="dropdown"><a href="/peripheral"
+              class="dropdown-toggle main-heading-a">CU周边</a></li>
+            <li class="dropdown"><a href="/sponsor"
+              class="dropdown-toggle main-heading-a">赞助商</a></li>
+            <li class="dropdown"><a href="/contacts"
+              class="dropdown-toggle main-heading-a">联系我们</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+  <section class="all-events events-tiles">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 events-tile-h1">
+          <h1>新生相册</h1>
+        </div>
+        <div class="col-md-4 col-sm-6 events-tile-datapicker">
+          <div class="event-dates input-append date" id="dp"
+            data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+            <div class="ev-date-left date-no-border">
+              <div class="ttl"></div>
+              <div class="dt"></div>
+              <input type="text" class="input-datepicker"
+                value="12-02-2012" readonly
+                placeholder="21 ... 28 April">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rows">
+        <div class="button-dropdown hidd">
+
+          <div class="hidden-dv hide" role="tablist" id="weeks-tab">
+            <a href="/album1" class="tab-custom pressed"
+               role="tab">
+              <div class="dropdown-text-title">UCSD</div>
+              <div class="dropdown-text-dates"></div>
+              <div class="tab-custom-line"></div>
+            </a>
+            <a href="/albumSDSU" class="tab-custom pressed"
+               role="tab">
+              <div class="dropdown-text-title">SDSU</div>
+              <div class="dropdown-text-dates"></div>
+              <div class="tab-custom-line"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container gr-bg tab-content">
+    <div class="tab-pane show row">
+      <!--<div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event active"
+          style="-webkit-animation: 0.4s;">
+          <img class="img-h-responsive img-preload"
+            alt="Daily Bass Ocean" title="Daily Bass Ocean" data-src=""
+            data-src2x="" src="http://placehold.it/360x320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Nov</div>
+              <div class="day">20</div>
+              <div class="week-day">Fri</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a href="eventslist/events/daily-bass-ocean"
+                  title="Daily Bass Ocean" class="top-event-title">Daily
+                  Bass Ocean</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">12:39</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">line-up</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">DJ Supbass </span><span
+                      class="sm-tx">(Detroit)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Alexander Grooves </span><span
+                      class="sm-tx">(Moscow)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Itchy:Pitchy </span><span
+                      class="sm-tx">(Saint Petersburg)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Depeche Code </span><span
+                      class="sm-tx">(Bratislava)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Caesar Loves Bay </span><span
+                      class="sm-tx">(London)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">price</div>
+                <div class="right-evt-inner">
+                  <div>5$</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event active"
+          style="-webkit-animation: 0.6s;">
+          <img class="img-h-responsive img-preload"
+            alt="Hip-Hop X OH!Trap" title="Hip-Hop X OH!Trap"
+            data-src="" data-src2x="" src="http://placehold.it/360x320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Nov</div>
+              <div class="day">21</div>
+              <div class="week-day">Sa</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a href="eventslist/events/hip-hop-x-oh-trap"
+                  title="Hip-Hop X OH!Trap" class="top-event-title">Hip-Hop
+                  X OH!Trap</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">12:39</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">line-up</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">DJ Supbass </span><span
+                      class="sm-tx">(Detroit)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Alexander Grooves </span><span
+                      class="sm-tx">(Moscow)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Itchy:Pitchy </span><span
+                      class="sm-tx">(Saint Petersburg)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Depeche Code </span><span
+                      class="sm-tx">(Bratislava)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Caesar Loves Bay </span><span
+                      class="sm-tx">(London)</span>
+                  </div>
+
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">price</div>
+                <div class="right-evt-inner">
+                  <div>5$</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event active"
+          style="-webkit-animation: 0.8s;">
+          <img class="img-h-responsive img-preload"
+            alt="Streets Love Invasion" title="Streets Love Invasion"
+            data-src="" data-src2x="" src="http://placehold.it/360x320">
+          <div class="top-event-descr">
+            <div class="date-event">
+              <div class="month">Nov</div>
+              <div class="day">22</div>
+              <div class="week-day">Su</div>
+            </div>
+            <div class="item-title">
+              <h3>
+                <a href="eventslist/events/streets-love-invasion"
+                  title="Streets Love Invasion" class="top-event-title">Streets
+                  Love Invasion</a>
+              </h3>
+            </div>
+            <div class="ticket-triangle-left"></div>
+            <div class="ticket-triangle-right"></div>
+            <div class="ticket-triangle-leftB"></div>
+            <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus"></div>
+          <div class="popup-evt">
+            <div class="poput-evt-inner">
+              <div class="start-row row">
+                <div class="left-evt-inner">start</div>
+                <div class="right-evt-inner">12:39</div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">line-up</div>
+                <div class="right-evt-inner">
+                  <div>
+                    <span class="evt-guest">DJ Supbass </span><span
+                      class="sm-tx">(Detroit)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Alexander Grooves </span><span
+                      class="sm-tx">(Moscow)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Itchy:Pitchy </span><span
+                      class="sm-tx">(Saint Petersburg)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Depeche Code </span><span
+                      class="sm-tx">(Bratislava)</span>
+                  </div>
+                  <div>
+                    <span class="evt-guest">Caesar Loves Bay </span><span
+                      class="sm-tx">(London)</span>
+                  </div>
+
+                </div>
+              </div>
+              <div class="line-ev row">
+                <div class="evt-liner"></div>
+              </div>
+              <div class="what-row row">
+                <div class="left-evt-inner">price</div>
+                <div class="right-evt-inner">
+                  <div>5$</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>-->
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/梁晨薇.jpg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">梁晨薇</a>
+
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div><p>名字 梁晨薇 </p>
+                                     <p>专业 Economic </p>
+                                     <p>想说的话 ＃A new start＃ </p></div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/张瀛文.jpg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">张瀛文</a>
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div><p>中文名：张瀛文</p>
+                                    <p>英文名：Melody</p>
+                                    <p>学院：ERC</p>
+                                    <p>专业：Statistics & Probability</p></div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/刘美君.jpg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">刘美君</a>
+
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div>我叫刘美君，应用数学专业ERC学院。热爱文艺，充满热情，乐于交友，理解包容，内心坚定，向往远方。</div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/罗嘉懿.jpg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">罗嘉懿</a>
+ 
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div>罗嘉懿 revelle undeclare</div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/胡博.jpg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">胡博</a>
+                    
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div>最右边的是我… 胡博 ERC mathmatics</div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/李锦昉.jpg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">李锦昉</a>
+                      
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div>暂无</div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+         <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/滕子琦.jpg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">滕子琦</a>
+                     
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div>Hello，我叫滕子琦, Marshall&Undeclared Major。来自南京，高中南京外国语学校，高二Illinois交流一年，爱玩爱美爱学习爱旅游爱运动爱生活，非常期待认识你们。</div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/应佳怡.jpg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">应佳怡</a>
+                      
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div>暂无</div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/李石天.jpg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">李石天</a>
+                      
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div>李石天
+                                      <p>revelle</p>
+                                      <p>general biology</p>
+                                      <p>初めまして、どうぞ宜しくお願いします！（爆照这种事情真是一点也不羞耻呢TAT）</p></div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+         <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/陈裴宇.jpg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">陈一凯</a>
+                     
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div>Muir 
+                                        Undeclared of humanities/ Arts</div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/王溪鹭.jpg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">王溪鹭</a>
+                      
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div>我叫王溪鹭，来自深圳，录了Revelle的Economics专业，希望和大家在SD愉快的玩帅🤗</div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <article class="top-event">
+          <img class="img-h-responsive img-preload"
+            alt="Californication Nights" title="Californication Nights"
+            data-src="" data-src2x="" src="images/stdimg/徐瑜婕.jpeg" width = '320' height = '360'>
+          <div class="top-event-descr">
+              <div class="item-title">
+                  <a href="" class="top-event-title">徐瑜婕</a>
+                      
+              </div>     
+              <div class="ticket-triangle-left"></div>
+              <div class="ticket-triangle-right"></div>
+              <div class="ticket-triangle-leftB"></div>
+              <div class="ticket-triangle-rightB"></div>
+          </div>
+          <div class="rombus">
+          </div>
+          <div class="popup-evt">
+              <div class="poput-evt-inner">
+                                    
+                    <div class="line-ev row">
+                          <div class="evt-liner"></div>
+                          </div>
+                    <div class="what-row row">
+                        <div class="left-evt-inner">简介</div>
+                            <div class="right-evt-inner">
+                                <div>李石天
+                                      学院：ERC<br>
+                                        被录取专业：economics</div>
+                                </div>
+                        </div>
+                    </div>
+          </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="rows paging single-paging">
+      <div class="left-pag sm off">
+        <div class="pad-arr">
+          <i></i>
+        </div>
+        <div class="pad-text">
+          <div class="pad-title">Prev</div>
+        </div>
+      </div>
+      <ul class="middle-paging">
+        <li class="off"><span>1</span></li>
+        <li><a href="/album2">2</a>
+        <li><a href="/album3">3</a>
+        </li>
+      </ul>
+      
+      <a class="right-pag sm"
+        href="/album2">
+        <div class="pad-arr">
+          <i></i>
+        </div>
+        <div class="pad-text">
+          <div class="pad-title">Next</div>
+        </div>
+      </a>
+    </div>
+  </div>
+  </main>
+<footer class="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 footer-block">
+                    <div class="welcome">
+                        <div class="welcome-inner">
+                            <div>
+                                <p  class="welcome-title"> 中国学生会欢迎您！ </p>
+                            </div>
+                            
+                            <span class="welcome-title">Do not hesitate to contact us!</span>
+
+                        </div>
+                    </div>
+                    <address>
+                        <ul class="address-list">
+                            <li>
+                                <div class="letter"></div>
+                                <a href="mailto:ucsandiegochineseunion@gmail.com">"ucsandiegochineseunion@gmail.com"</a>
+                            </li>
+                            <li>
+                                <div class="phone-foot"></div>
+
+                                <ul>
+                                    <li>wechat: muylisa</li>
+                                </ul>
+                            </li>
+                            <li class="last">
+                                <div class="baloone-foot"></div>
+                                <ul>
+                                    <li>9500 Gilman Dr.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+               <div class="col-lg-4 col-md-6 col-sm-6 footer-block">
+          <div class="subscribe-here soc-marg">
+            <div class="footer-header">CU微信公众号</div>
+            <p>请扫描下方二维码关注</p>
+            <img src="images/CU_微信.jpg" alt="CU微信公众号" width=200px >
+            </form>
+          </div>
+        </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 footer-block last">
+                    <div class="soc-marg soc-webs">
+                        <div class="footer-header">关注我们</div>
+                         <p>点击关注各大社交网站主页</p>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://www.facebook.com/groups/2203090277/?fref=ts" target="_blank">
+                                    <i class="fa fa-facebook"></i>                                </a>                            </li>
+                           
+                            <li>
+                                <a href="http://page.renren.com/601273675/channel-notelist?mid=" target="_blank">
+                                    <i class="fa fa-renren"></i>                                </a>                            </li>
+                             <li>
+                           <a href="http://weibo.com/ucsandiego">
+                           <i class="fa fa-weibo"></i>                         </a>                            </li>
+                           
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCTKIHrBWM_VwUFunuCIr1eQ">
+                                    <i class="fa fa-youtube"></i>                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<audio controls="controls" src="cuagain.mp3" autoplay="autoplay" loop="loop"></audio>-->
+        <div class="copyrights-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="copyrigts">Copyright 2016-中国学生联合会
+                            <a href="#"></a> / All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  <script>
+      var global = {
+        siteUrl : 'http://sites.makebecool.com/themeclubcube/',
+        baseUrl : '/themeclubcube/',
+        assetsUrl : '/themeclubcube/assets/',
+        cultureKey : 'en'
+      }
+    </script>
+  <script src="js/jquery/jquery-1.11.0.min.js"></script>
+  <script src="js/otherlibs/bootstrap.js"></script>
+  <script src="js/jquery/plugins/jquery.imgpreload.js"></script>
+  <script src="js/jquery/plugins/jquery.form.js"></script>
+  <script src="js/jquery/plugins/validation/jquery.validate.js"></script>
+  <script src="js/jquery/plugins/slick/slick.min.js"></script>
+  <script src="js/jquery/plugins/tileSlide.js"></script>
+  <script src="js/jquery/plugins/topEventsAnimate.js"></script>
+  <script src="js/jquery/plugins/tinyAnimations.js"></script>
+  <script src="js/jquery/plugins/imagelightbox/imagelightbox.js"></script>
+  <script src="js/jquery/plugins/jquery.sharrre.js"></script>
+  <script src="js/jquery/plugins/topEventsAnimate.js"></script>
+  <script src="js/app/lib/site.js"></script>
+  <script src="js/app/lib/siteMode.js"></script>
+  <script src="js/app/mode/themeMode.js"></script>
+  <script src="js/app/modules/images.js"></script>
+  <script src="js/app/modules/loaderMain.js"></script>
+  <script src="js/app/modules/fullHeightSlider.js"></script>
+  <script src="js/app/modules/eventAnimate.js"></script>
+  <script src="js/app/modules/blogAnimate.js"></script>
+  <script src="js/app/modules/partners.js"></script>
+  <script src="js/app/modules/scrollAtOnce.js"></script>
+  <script src="js/app/modules/menuToTop.js"></script>
+  <script src="js/app/modules/gallerySlider.js"></script>
+  <script src="js/app/modules/topEventsSlider.js"></script>
+  <script src="js/app/modules/ticketsEventsSlider.js"></script>
+  <script src="js/app/modules/formContacts.js"></script>
+  <script src="js/app/modules/formSubscribe.js"></script>
+  <script src="js/app/modules/galleryPage.js"></script>
+  <script src="js/app/modules/sharrre.js"></script>
+  <script src="js/app/modules/eventsTickets.js"></script>
+  <script src="js/app/modules/dropDownClick.js"></script>
+  <script src="js/init.js"></script>
+</body>
+
+</html>
