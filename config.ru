@@ -3,7 +3,7 @@ use Rack::Static,
   :urls => ["/images", "/js", "/css", "/less", "/vendor/css", "vendor/javascripts", "/vendor/stylesheets",
             "js/app", "js/css", "js/jquery", "js/otherlibs", "js/jquery/plugins", "js/jquery/plugins/bootstrap-datapicker",
             "js/jquery/plugins/imagelightbox", "js/jquery/plugins/slick", "js/jquery/plugins/slick/fonts",
-            "js/jquery/plugins/validation", "js/jquery/plugins/validation/localization"],
+            "js/jquery/plugins/validation", "js/jquery/plugins/validation/localization", "js/otherlibs"],
   :root => "public"
 
 map "/" do
@@ -19,7 +19,7 @@ map "/" do
 }
 end
 
-map "/service" do
+map "/student-service" do
   run lambda { |env|
     [
       200,
