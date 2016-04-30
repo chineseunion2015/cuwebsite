@@ -274,7 +274,7 @@ map "/tritonnotes.pdf" do
       'Content-Type'  => 'file/pdf', 
       'Cache-Control' => 'public, max-age=86400' 
     },
-    File.open('public/files/tritonnotes.pdf', File::RDONLY)
+    File.open('public/tritonnotes.pdf', File::RDONLY)
   ]
 }
 end
@@ -287,7 +287,7 @@ map "/SDSUnotes.pdf" do
       'Content-Type'  => 'file/pdf', 
       'Cache-Control' => 'public, max-age=86400' 
     },
-    File.open('public/files/SDSUnotes.pdf', File::RDONLY)
+    File.open('public/SDSUnotes.pdf', File::RDONLY)
   ]
 }
 end
