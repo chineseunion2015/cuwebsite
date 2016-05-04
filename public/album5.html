@@ -331,7 +331,8 @@
         <article class="top-event">
           <img class="img-h-responsive img-preload"
             alt="Californication Nights" title="Californication Nights"
-            data-src="" data-src2x="" src="images/stdimg/kiwi.jpg" width = '320' height = '360'>
+            data-src="" data-src2x="" src="images/stdimg/kiwi.jpg" width = '320' height = '360'
+            onload="get(this)" style='display:none'>
           <div class="top-event-descr">
               <div class="item-title">
                   <a href="" class="top-event-title">周可薇</a>
@@ -366,7 +367,8 @@
         <article class="top-event">
           <img class="img-h-responsive img-preload"
             alt="Californication Nights" title="Californication Nights"
-            data-src="" data-src2x="" src="images/stdimg/shiyabo.jpg" width = '320' height = '360'>
+            data-src="" data-src2x="" src="images/stdimg/shiyabo.jpg" width = '320' height = '360'
+            onload="get(this)" style='display:none'>
           <div class="top-event-descr">
               <div class="item-title">
                   <a href="" class="top-event-title">施雅博</a>
@@ -402,7 +404,8 @@
         <article class="top-event">
           <img class="img-h-responsive img-preload"
             alt="Californication Nights" title="Californication Nights"
-            data-src="" data-src2x="" src="images/stdimg/zhaozehong.jpg" width = '320' height = '360'>
+            data-src="" data-src2x="" src="images/stdimg/zhaozehong.jpg" width = '320' height = '360'
+            onload="get(this)" style='display:none'>
           <div class="top-event-descr">
               <div class="item-title">
                   <a href="" class="top-event-title">赵泽宏</a>
@@ -438,7 +441,8 @@
         <article class="top-event">
           <img class="img-h-responsive img-preload"
             alt="Californication Nights" title="Californication Nights"
-            data-src="" data-src2x="" src="images/stdimg/wangxinran.jpg" width = '320' height = '360'>
+            data-src="" data-src2x="" src="images/stdimg/wangxinran.jpg" width = '320' height = '360'
+            onload="get(this)" style='display:none'>
           <div class="top-event-descr">
               <div class="item-title">
                   <a href="" class="top-event-title">王欣然</a>
@@ -476,7 +480,8 @@
         <article class="top-event">
           <img class="img-h-responsive img-preload"
             alt="Californication Nights" title="Californication Nights"
-            data-src="" data-src2x="" src="images/stdimg/doukaiwen.JPG" width = '320' height = '360'>
+            data-src="" data-src2x="" src="images/stdimg/doukaiwen.JPG" width = '320' height = '360'
+            onload="get(this)" style='display:none'>
           <div class="top-event-descr">
               <div class="item-title">
                   <a href="" class="top-event-title">窦凯文</a>
@@ -511,7 +516,8 @@
          <article class="top-event">
           <img class="img-h-responsive img-preload"
             alt="Californication Nights" title="Californication Nights"
-            data-src="" data-src2x="" src="images/stdimg/zhuling.jpg" width = '320' height = '360'>
+            data-src="" data-src2x="" src="images/stdimg/zhuling.jpg" width = '320' height = '360'
+            onload="get(this)" style='display:none'>
           <div class="top-event-descr">
               <div class="item-title">
                   <a href="" class="top-event-title">朱凌</a>
@@ -544,7 +550,8 @@
         <article class="top-event">
           <img class="img-h-responsive img-preload"
             alt="Californication Nights" title="Californication Nights"
-            data-src="" data-src2x="" src="images/stdimg/chenguanhua.jpg" width = '320' height = '360'>
+            data-src="" data-src2x="" src="images/stdimg/chenguanhua.jpg" width = '320' height = '360'
+            onload="get(this)" style='display:none'>
           <div class="top-event-descr">
               <div class="item-title">
                   <a href="" class="top-event-title">陈冠华</a>
@@ -578,7 +585,8 @@
         <article class="top-event">
           <img class="img-h-responsive img-preload"
             alt="Californication Nights" title="Californication Nights"
-            data-src="" data-src2x="" src="images/stdimg/linpeiying.png" width = '320' height = '360'>
+            data-src="" data-src2x="" src="images/stdimg/linpeiying.png" width = '320' height = '360'
+            onload="get(this)" style='display:none'>
           <div class="top-event-descr">
               <div class="item-title">
                   <a href="" class="top-event-title">林佩颖</a>
@@ -872,6 +880,11 @@
         cultureKey : 'en'
       }
     </script>
+    <script type="text/javascript">
+function get(complete){
+  complete.style.display = 'block';
+}
+</script>
   <script src="js/jquery/jquery-1.11.0.min.js"></script>
   <script src="js/otherlibs/bootstrap.js"></script>
   <script src="js/jquery/plugins/jquery.imgpreload.js"></script>
