@@ -129,7 +129,8 @@
           
           <img class="img-h-responsive img-preload"
             alt="Californication Nights" title="Californication Nights"
-            data-src="" data-src2x="" src="images/UCSD-GeiselLib.jpg" width='360' height='320'>
+            data-src="" data-src2x="" src="images/UCSD-GeiselLib.jpg" width='360' height='320'
+            onload="get(this)" style='display:none'>
           <div class="top-event-descr">
             <div class="date-event">
               <div class="month">Apr</div>
@@ -180,7 +181,8 @@
           <img class="img-h-responsive img-preload"
             alt="Mash Up Your Heads: Christmas Night"
             title="Mash Up Your Heads: Christmas Night" data-src=""
-            data-src2x="" src="images/eboard.png" width = "360" height = "320">
+            data-src2x="" src="images/eboard.png" width = "360" height = "320"
+            onload="get(this)" style='display:none'>
           <div class="top-event-descr">
             <div class="date-event">
               <div class="month">Apr</div>
@@ -871,6 +873,11 @@
         cultureKey : 'en'
       }
     </script>
+            <script type="text/javascript">
+function get(complete){
+  complete.style.display = 'block';
+}
+</script>
   <script src="js/jquery/jquery-1.11.0.min.js"></script>
   <script src="js/otherlibs/bootstrap.js"></script>
   <script src="js/jquery/plugins/jquery.imgpreload.js"></script>
