@@ -188,6 +188,19 @@ map "/album5" do
 }
 end
 
+map "/album6" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/album6.html', File::RDONLY)
+  ]
+}
+end
+
 map "/albumSDSU" do
   run lambda { |env|
   [
