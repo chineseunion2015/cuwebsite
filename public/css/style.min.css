@@ -251,3 +251,22 @@
  */.table-striped>tbody>tr:nth-child(2n+1)>td,.table-striped>tbody>tr:nth-child(2n+1)>th{background-color:#efefef}/*!
  * Color drop
  */.color-ic{display:inline-block;position:relative;width:18px;height:18px;margin-right:16px;float:left}.color-ic:before{display:block;position:absolute;left:2px;top:0;width:18px;height:18px;font-family:FontAwesome;content:"\f00c";color:#fff;font-size:12px;line-height:18px;visibility:hidden}nav>ul>li.dropdown>ul>li.active>span .color-ic:before,nav>ul>li.dropdown>ul>li>a:hover .color-ic:before{visibility:visible}.color-ic-reg{background:#a82743}.color-ic-gd{background:#e0b13b}.color-ic-bb{background:#9ab1b7}.color-ic-bbr{background:#1c486b}.ps-container .ps-scrollbar-x-rail{position:absolute;bottom:3px;height:5px;background:#772533}.ps-container .ps-scrollbar-x-rail.hover,.ps-container .ps-scrollbar-x-rail.in-scrolling,.ps-container .ps-scrollbar-x-rail:hover{background-color:#eee}.ps-container .ps-scrollbar-y-rail{position:absolute;top:20px;width:5px;background:#772533}.ps-container .ps-scrollbar-y-rail.hover,.ps-container .ps-scrollbar-y-rail.in-scrolling,.ps-container .ps-scrollbar-y-rail:hover{background-color:#772533}.ps-container .ps-scrollbar-x{position:absolute;bottom:0;height:5px;background:#fff}.ps-container.ie6 .ps-scrollbar-x{font-size:0}.ps-container .ps-scrollbar-x-rail.hover .ps-scrollbar-x,.ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x{background-color:#fff;cursor:pointer}.ps-container .ps-scrollbar-y{position:absolute;right:0;width:5px;background:#fff}.ps-container.ie6 .ps-scrollbar-y{font-size:0}.ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y,.ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y{background-color:#fff;cursor:pointer}.ps-container.ie .ps-scrollbar-x,.ps-container.ie .ps-scrollbar-y{visibility:hidden}.ps-container.ie.hover .ps-scrollbar-x,.ps-container.ie.hover .ps-scrollbar-y,.ps-container.ie:hover .ps-scrollbar-x,.ps-container.ie:hover .ps-scrollbar-y{visibility:visible}.ps-container .ps-scrollbar-y-rail{right:2px}
+
+ /* preload the picture */
+ @media screen{
+ 	div#preloader{
+ 		position: absolute;
+ 		left: -9999px;
+ 		top: -9999px;
+ 	}
+ 	div#preloader img{
+ 		display: block;
+ 	}
+ }
+ @media print{
+ 	div#preloader,
+ 	div#preloader img{
+ 		visibility: hidden;
+ 		display: none;
+ 	}
+ }
