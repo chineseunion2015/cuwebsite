@@ -19,6 +19,19 @@ map "/" do
 }
 end
 
+map "/Eng" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/indexEng.html', File::RDONLY)
+  ]
+}
+end
+
 map "/student-service" do
   run lambda { |env|
     [
@@ -28,6 +41,19 @@ map "/student-service" do
         'Cache-Control' => 'public, max-age=86400'
       },
       File.open('public/student-service.html', File::RDONLY)
+      ]
+    }
+end
+
+map "/student-serviceEng" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/student-serviceEng.html', File::RDONLY)
       ]
     }
 end
@@ -45,7 +71,33 @@ map "/events" do
     }
 end
 
+map "/eventsEng" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/eventsEng.html', File::RDONLY)
+      ]
+    }
+end
+
 map "/trade" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/trade.html', File::RDONLY)
+      ]
+    }
+end
+
+map "/tradeEng" do
   run lambda { |env|
     [
       200,
@@ -71,6 +123,19 @@ map "/peripheral" do
     }
 end
 
+map "/peripheralEng" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/peripheralEng.html', File::RDONLY)
+      ]
+    }
+end
+
 map "/sponsor" do
   run lambda { |env|
   [
@@ -84,6 +149,19 @@ map "/sponsor" do
 }
 end
 
+map "/sponsorEng" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/sponsorEng.html', File::RDONLY)
+  ]
+}
+end
+
 map "/contacts" do
   run lambda { |env|
   [
@@ -93,6 +171,19 @@ map "/contacts" do
       'Cache-Control' => 'public, max-age=86400' 
     },
     File.open('public/contacts.html', File::RDONLY)
+  ]
+}
+end
+
+map "/contactsEng" do
+  run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/contactsEng.html', File::RDONLY)
   ]
 }
 end
@@ -301,6 +392,19 @@ map "/events2016" do
         'Cache-Control' => 'public, max-age=86400'
       },
       File.open('public/events2016.html', File::RDONLY)
+      ]
+    }
+end
+
+map "/events2016Eng" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/events2016Eng.html', File::RDONLY)
       ]
     }
 end
