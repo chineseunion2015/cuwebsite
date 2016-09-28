@@ -409,6 +409,19 @@ map "/events2016Eng" do
     }
 end
 
+map "/belmont" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/belmont.html', File::RDONLY)
+      ]
+    }
+end
+
 map "/tritonnotes.pdf" do
   run lambda { |env|
   [
