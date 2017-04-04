@@ -448,6 +448,58 @@ map "/once" do
     }
 end
 
+map "/SMCindex" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/SMCindex.html', File::RDONLY)
+      ]
+    }
+end
+
+map "/SDSUindex" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/SDSUindex.html', File::RDONLY)
+      ]
+    }
+end
+
+map "/grossmontIndex" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/grossmontIndex.html', File::RDONLY)
+      ]
+    }
+end
+
+map "/ALIindex" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/ALIindex.html', File::RDONLY)
+      ]
+    }
+end
+
 map "/tritonnotes.pdf" do
   run lambda { |env|
   [
