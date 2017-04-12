@@ -29,113 +29,8 @@
     <!-- <link rel="stylesheet" href="css/slideshow.css"> -->
     <link rel="stylesheet" href="css/tab.css">
     <link rel="stylesheet" href="css/accordion.css">
-
-    <style>
-        * {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;margin:0}
-.mySlides {display:none}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.slideshow-container a {
-    color: #000;
-    border: none;
-}
-
-.slideshow-container > a:hover {
-    color: #fff;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.faded {
-  -webkit-animation-name: faded;
-  -webkit-animation-duration: 1.5s;
-  animation-name: faded;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes faded {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes faded {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-    </style>
+	<link rel="stylesheet" href="css/spontab.css">
+   
    
     <!--[if IE]>
         <script src="js/otherlibs/html5.js"></script>
@@ -183,7 +78,7 @@ body {font-family: Verdana,sans-serif;margin:0}
               class="dropdown-toggle main-heading-a">活动简介</a></li>
 
             <li class="dropdown"><a href="/peripheral"
-              class="dropdown-toggle main-heading-a">CU分部</a></li>
+              class="dropdown-toggle main-heading-a">CU周边</a></li>
             <li class="dropdown"><a href="/sponsor"
               class="dropdown-toggle main-heading-a">推荐商家</a></li>
             <li class="dropdown"><a href="/contacts"
@@ -218,9 +113,50 @@ body {font-family: Verdana,sans-serif;margin:0}
 							</div>
 
 							<div id="LA" class="tabcontent">
-								<h2>尽请期待</h2>
-                                    
-                                <div class="slideshow-container">
+
+                <br>
+                
+				<table id="sponsortable">
+					<tr>
+						<td><img src='images/la/1.png'></td>
+						<td><p>Volcano (drinks 25%) : 2111 Sawtelle Blvd, Los Angeles, CA 90025 <br>call: (310) 445-5326</p></td>
+					</tr>
+					<tr>
+						<td><img src='images/la/2.png'></td>
+						<td><p>Curry House (10%, 超过10人 20%) :2130 Sawtelle Blvd #200, Los Angeles, CA 90025 <br>call: (310) 479-8477</p></td>
+					</tr>
+					<tr>
+						<td><img src='images/la/3.png'></td>
+						<td><p>Tang Chinese & Korean Restaurant (15%) : 954 S Norton Ave, Los Angeles, CA 90019<br> call: (323) 934-5677</p></td>
+					</tr>
+					<tr>
+						<td><img src='images/la/4.png'></td>
+						<td><p>麻辣城 Spicy City (15%) : 140 W Valley Blvd #208, San Gabriel, CA 91776<br> call: (626) 280-0186</p></td>
+					</tr>
+					<tr>
+						<td><img src='images/la/5.png'></td>
+						<td><p>洞庭春 Dong Ting Chun (12%): 140 W Valley Blvd, San Gabriel, CA 91776<br> call: (626) 288-5918</p></td>
+					</tr>
+					<tr>
+						<td><img src='images/la/6.png'></td>
+						<td><p>Energy Karaoke (10%) : 33 E Valley Blvd #210, Alhambra, CA 91801<br> call: (626) 570-8118</p></td>
+					</tr>
+					<tr>
+						<td><img src='images/la/7.png'></td>
+						<td><p>Energy Bistro & Karaoke (10%) : 2020 S Hacienda Blvd k, Hacienda Heights, CA 91745<br> call: (626) 968-2988</p></td>
+					</tr>
+					<tr>
+						<td><img src='images/la/8.png'></td>
+						<td><p>Crepe Love (10%) : 1 E Valley Blvd, Alhambra, CA 91801<br> call: (626) 570-1217</p></td>
+					</tr>
+					<tr>
+						<td><img src='images/la/9.png'></td>
+						<td><p>Republic Karaoke (10%) : 111 N. Atlantic Blvd, Ste 118 Monterey Park, CA 91754 (Locate in basement), call: (626) 656-6400</p></td>
+					</tr>
+				</table>
+
+
+                             <!--    <div class="slideshow-container">
 
                                 <div class="mySlides faded">
                                   <div class="numbertext">1 / 3</div>
@@ -251,33 +187,10 @@ body {font-family: Verdana,sans-serif;margin:0}
                                   <span class="dot" onclick="currentSlide(2)"></span> 
                                   <span class="dot" onclick="currentSlide(3)"></span> 
                                 </div>
-
+ -->
                             
 
 
-							   <!--  <h2>饮食分类</h2>
-	                            <p>感谢下列企业给予CU最大的支持</p>
-	                            <img src='images/jiaxiangwei.jpg' height="250" width='250'>
-	                            <img src='images/xiangguodawang.JPG' height="250" width='250'>
-	                            <img src='images/yuemingyuan.jpg' height="250" width='250'>
-	                            <img src='images/brazilian.jpg' height="250" width='250'>
-	                            <br>
-
-	                            <h3>Double Happiness 老正兴 (12% discount)</h3>
-	                            <p>1011 Camino Del Mar
-	                               Del Mar, CA 92014
-	                               Phone number (858) 481-8584
-	                            </p>
-	                            <h3>Double Happiness 老正兴 (12% discount)</h3>
-	                            <p>1011 Camino Del Mar
-	                               Del Mar, CA 92014
-	                               Phone number (858) 481-8584
-	                            </p>
-
-	                            <h3>Emerald Chinese Cuisine (10% discount Monday to Friday, 5% discount on weekends)</h3>
-	                            <p>3709 Convoy St
-	San Diego, CA 92111
-	Phone number (858) 565-6888</p> -->
 							</div>
 
 							<div id="SD" class="tabcontent">
@@ -285,70 +198,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 								<button class="accordion"><h2>饮食分类</h2></button>
 								<div class="panel">
 
-								<p>感谢下列企业给予CU最大的支持</p>
-	                            <img src='images/jiaxiangwei.jpg' height="250" width='250'>
-	                            <img src='images/xiangguodawang.JPG' height="250" width='250'>
-	                            <img src='images/yuemingyuan.jpg' height="250" width='250'>
-	                            <img src='images/brazilian.jpg' height="250" width='250'>
-	                            <br>
-
-	                            <h3>Double Happiness 老正兴 (12% discount)</h3>
-	                            <p>1011 Camino Del Mar
-	                               Del Mar, CA 92014
-	                               Phone number (858) 481-8584
-	                            </p>
-
-	                            <h3>Emerald Chinese Cuisine (10% discount Monday to Friday, 5% discount on weekends)</h3>
-	                            <p>3709 Convoy St
-	San Diego, CA 92111
-	Phone number (858) 565-6888</p>
-
-	                            <h3>Hi Thai (10% discount with minimum purchase of $5)</h3>
-	                            <p>9500 Gilman Dr
-	La Jolla, CA 92093
-	Phone number (858) 558-4606</p>
-	                            <h3>Inifini Tea (10% cash discount)</h3>
-	                            <p> 4690 Convoy St
-
-							</div>
-
-								<button class="accordion"><h2>生活服务类</h2></button>
-								<div class="panel">
-								  <img src='images/chase.png' height="250" width='250'>
-                            <img src='images/sheraton.png' height="250" width='250'>
-                            <img src='images/spot.png' height="250" width='250'>
-                            <br>
-                            <br>
-                            <h3>At&T</h3>
-                            <p> La Jolla Village Square
-8657 Villa La Jolla Drive, Suite 131
-(858) 638-8105</p>
-                            <h3>Chase</h3>
-                            <p> Price Center </p>
-                            <h3>Golden Optometric Vision Center</h3>
-                            <p> 7330 Clairemont Mesa Blvd Ste A102
-                            Phone number 8582924498</p>
-                            <h3>Hair Star Beauty Salon</h3>
-                            <p>4681 Convoy St
-San Diego, CA 92111
-Phone number (858) 292-0089</p>
-                            <h3>星光欢唱/Melody</h3>
-                            <p>4344 Convoy St
-San Diego, CA 92111
-Phone number (858) 292-1689</p>
-                            
-                            <h3>Renty Car Rental</h3>
-                            <p> Address: 8025 Clairemont Mesa Blvd #20, San Diego, CA 92111
-Phone:(858) 560-7368</p>
-                            
-                            <h3>Sheraton</h3>
-                            <p> 3299 Holiday Ct
-(858) 453-5500</p>
-								</div>
-
-
-							   <!-- <h2>饮食分类</h2>
-                            <p>感谢下列企业给予CU最大的支持</p>
+								 <p>感谢下列企业给予CU最大的支持</p>
                             <img src='images/jiaxiangwei.jpg' height="250" width='250'>
                             <img src='images/xiangguodawang.JPG' height="250" width='250'>
                             <img src='images/yuemingyuan.jpg' height="250" width='250'>
@@ -429,11 +279,12 @@ Phone number (858) 277-8988</p>
                                 San Diego, CA 92111
                                 Phone number (858) 571-2788
                                 </p>
-                            
-                            
-                            
-                            <h2> 生活服务类 </h2><br>
-                            <img src='images/chase.png' height="250" width='250'>
+
+							</div>
+
+								<button class="accordion"><h2>生活服务类</h2></button>
+								<div class="panel">
+								    <img src='images/chase.png' height="250" width='250'>
                             <img src='images/sheraton.png' height="250" width='250'>
                             <img src='images/spot.png' height="250" width='250'>
                             <br>
@@ -472,14 +323,21 @@ Phone number (858) 268-1588</p>
                             
                             <h3>UCSD International Center</h3>
                             <p>University of California San Diego, 9500 Gilman Dr #0018, La Jolla, CA 92093
-                             Phone number (858) 534-3730</p>
+                             Phone number (858) 534-3730</p> <p> 3299 Holiday Ct
+(858) 453-5500</p>
+								</div>
+
+
+							
+                            
+                          
                             
 
                             
                             <br><br><br><br><br>
                             <p>*6月到9月为CU卡预售试用期，在这里向之前碰到CU卡使用问题的同学说声抱歉！如果期间遇到任何
                             问题请发送邮件至 chineseunioncustomerservice@outlook.com。CU会第一时间帮您解决。 9月19日 全新版终身制CU会员卡正式启航。</p>
-						</div> -->
+						</div> 
 							</div>
 
                            
