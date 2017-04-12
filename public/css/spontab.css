@@ -1,0 +1,12 @@
+#sponsortable td {
+	text-align:center; 
+    vertical-align:middle;
+}
+
+#sponsortable img {
+	margin: 15px;
+}
+
+#sponsortable tr {
+	border-bottom: 3px solid black;
+}	
